@@ -32,7 +32,6 @@ addEventListener("scroll", (event) => {
   calculateScrollPercentage(window.scrollY);
   progressBar.style.width = scrollPercentage + "%";
 });
-
 function calculateScrollPercentage(currentYPosition) {
   console.clear();
   progress = (heightOfWindow + currentYPosition) / heightOfWebPage;
